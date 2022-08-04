@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """TypeVar
 """
-from typing import Mapping, Any, TypeVar
+from typing import Mapping, Any, TypeVar, Union
 
 T = TypeVar('T')
 ReType = Union[Any, T]
