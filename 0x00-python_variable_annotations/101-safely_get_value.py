@@ -9,6 +9,8 @@ Def = Union[T, None]
 
 
 def safely_get_value(dct: Mapping, key: Any, default: Def = None) -> ReType:
+    """function to savfaly get value
+    """
     if key in dct:
         return dct[key]
     else:
