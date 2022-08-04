@@ -3,7 +3,6 @@
 """
 from typing import Any, Sequence, Union
 
-NoneType = None
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     if lst:
