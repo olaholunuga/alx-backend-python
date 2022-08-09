@@ -3,10 +3,10 @@
 """
 import asyncio
 import random
-from typing import Iterator, Union
+from typing import Generator, Union
 
 
-async def async_generator() -> Iterator[Union[int, float]]:
+async def async_generator() -> Generator[float]:
     """asyncronous generator function
     """
     for _ in range(10):
