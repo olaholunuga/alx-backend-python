@@ -3,11 +3,10 @@
 """
 import asyncio
 import time
-from typing import Union
 async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 
-async def measure_runtime() -> Union[float, int]:
+async def measure_runtime() -> float:
     """function to measure runtime of
     async function
     """
